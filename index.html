@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flipkart</title>
@@ -9,464 +10,413 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="Header-left">
-        <a href="index.html" class="flipkart">Flipkart</a>
-        <div class="Header-left-p">
-          <p>
-            <a href="#" style="color: gold;">Explore plus</a>
-            <i class="fas fa-plus" style="color: gold;"></i>
-          </p>
+        <div class="Header-left"> <a href="index.html" class="flipkart">Flipkart</a>
+            <div class="Header-left-p">
+                <p> <a href="#" style="color: gold;">Explore plus</a> <i class="fas fa-plus" style="color: gold;"></i> </p>
+            </div>
         </div>
-      </div>
-      <div class="Header-center">
-        <input class="search-box" type="text" placeholder=" Search for products, brands and more" aria-label="Search" id="productSearch" type="submit" onkeypress="searchProducts()">
-      </div>
-      <div class="Header-right">
-        <button class="hamburger-menu"></button>
-        <div class="menu-items">
-          <button class="login">Login</button>
-          <a href="#" class="menu-item">Become a Seller</a>
-          <a href="#" class="menu-item">More</a>
-          <p>
-            <a href="#" class="menu-item">Cart</a>
-            <i class="fa-solid fa-cart-shopping"></i>
-          </p>
+        <div class="Header-center"> <input class="search-box" type="text" placeholder=" Search for products, brands and more" aria-label="Search" id="productSearch" type="submit" onkeypress="searchProducts()"> </div>
+        <div class="Header-right"> <button class="hamburger-menu"></button>
+            <div class="menu-items"> <button class="login">Login</button> <a href="#" class="menu-item">Become a Seller</a> <a href="#" class="menu-item">More</a>
+                <p> <a href="#" class="menu-item">Cart</a> <i class="fa-solid fa-cart-shopping"></i> </p>
+            </div>
         </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
+    </nav> <!-- End Navbar -->
     <!-- Start of category-section -->
     <section>
-      <div class="category-row">
-        <div class="category-col">
-          <img src="images/grocery.webp" alt="Grocery">
-          <h5>Grocery</h5>
+        <div class="category-row">
+            <div class="category-col"> <img src="images/grocery.webp" alt="Grocery">
+                <h5>Grocery</h5>
+            </div>
+            <div class="category-col"> <img src="images/mobiles.webp" alt="Mobiles">
+                <h5>Mobiles</h5>
+            </div>
+            <div class="category-col"> <img src="images/fashion.webp" alt="Fashion">
+                <h5>Fashion</h5>
+            </div>
+            <div class=" category-col"> <img src="images/electronics.webp" alt="Electronics">
+                <h5>Electronics</h5>
+            </div>
+            <div class="category-col"> <img src="images/home.webp" alt="Home & Furniture">
+                <h5>Home & Furniture</h5>
+            </div>
+            <div class="category-col"> <img src="images/appliances.webp" alt="Appliances">
+                <h5>Appliances</h5>
+            </div>
+            <div class="category-col"> <img src="images/travel.webp" alt="Travel">
+                <h5>Travel</h5>
+            </div>
+            <div class="category-col"> <img src="images/topoffers.webp" alt="Top Offers">
+                <h5>Top Offers</h5>
+            </div>
+            <div class="category-col"> <img src="images/beauty.webp" alt="Beauty,Toys & More">
+                <h5>Beauty,Toys & More</h5>
+            </div>
+            <div class="category-col"> <img src="images/twowheelers.webp" alt="Two Wheelers">
+                <h5>Two Wheelers</h5>
+            </div>
         </div>
-        <div class="category-col">
-          <img src="images/mobiles.webp" alt="Mobiles">
-          <h5>Mobiles</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/fashion.webp" alt="Fashion">
-          <h5>Fashion</h5>
-        </div>
-        <div class=" category-col">
-          <img src="images/electronics.webp" alt="Electronics">
-          <h5>Electronics</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/home.webp" alt="Home & Furniture">
-          <h5>Home & Furniture</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/appliances.webp" alt="Appliances">
-          <h5>Appliances</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/travel.webp" alt="Travel">
-          <h5>Travel</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/topoffers.webp" alt="Top Offers">
-          <h5>Top Offers</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/beauty.webp" alt="Beauty,Toys & More">
-          <h5>Beauty,Toys & More</h5>
-        </div>
-        <div class="category-col">
-          <img src="images/twowheelers.webp" alt="Two Wheelers">
-          <h5>Two Wheelers</h5>
-        </div>
-      </div>
-    </section>
-    <!-- End of category-section -->
+    </section> <!-- End of category-section -->
     <!-- Start banner section -->
     <div class="carousel">
-      <ul>
-        <li>
-          <img src="images/banner1.jpg" alt="Image 1">
-        </li>
-        <li>
-          <img src="images/banner2.jpg" alt="Image 2">
-        </li>
-        <li>
-          <img src="images/banner3.jpg" alt="Image 3">
-        </li>
-        <li>
-          <img src="images/banner4.jpg" alt="Image 4">
-        </li>
-        <li>
-          <img src="images/banner5.jpg" alt="Image 5">
-        </li>
-        <li>
-          <img src="images/banner6.jpg" alt="Image 6">
-        </li>
-        <li>
-          <img src="images/banner7.jpg" alt="Image 7">
-        </li>
-      </ul>
-      <button class="carousel-btn left" onclick="slideCarousel(-1)">&#10094;</button>
-      <button class="carousel-btn right" onclick="slideCarousel(1)">&#10095;</button>
-    </div>
-    <!-- End banner section -->
+        <ul>
+            <li> <img src="images/banner1.jpg" alt="Image 1"> </li>
+            <li> <img src="images/banner2.jpg" alt="Image 2"> </li>
+            <li> <img src="images/banner3.jpg" alt="Image 3"> </li>
+            <li> <img src="images/banner4.jpg" alt="Image 4"> </li>
+            <li> <img src="images/banner5.jpg" alt="Image 5"> </li>
+            <li> <img src="images/banner6.jpg" alt="Image 6"> </li>
+            <li> <img src="images/banner7.jpg" alt="Image 7"> </li>
+        </ul> <button class="carousel-btn left" onclick="slideCarousel(-1)">&#10094;</button> <button class="carousel-btn right" onclick="slideCarousel(1)">&#10095;</button>
+    </div> <!-- End banner section -->
     <!-- Start of 1st Container section -->
     <div class="content">
-      <div class="contenthead">
-        <div class="contenthead"> Best of Electronics </div>
-        <div class="viewallbtn">
-          <button id="Best-of-Electronics" class="viewbtn">View All</button>
+        <div class="contenthead">
+            <div class="contenthead"> Best of Electronics </div>
+            <div class="viewallbtn"> <button id="Best-of-Electronics" class="viewbtn">View All</button> </div>
         </div>
-      </div>
-      <hr>
-      <a href="Best-of-Electronics.html">
-        <div class="offerrow">
-          <div class="offerimg1">
-            <img src="images/electronics1.jpg" alt="Mobiles">
-            <div class="offerimg-subtxt1">Mobiles</div>
-            <div class="offerimg-subtxt2">From ₹6499</div>
-            <div class="offerimg-subtxt3">Samsung, Apple, OnePlus & More</div>
-          </div>
-          <div class="offerimg2">
-            <img src="images/electronics2.jpg" alt="Laptops">
-            <div class="offerimg-subtxt1">Laptops</div>
-            <div class="offerimg-subtxt2">From ₹23490</div>
-            <div class="offerimg-subtxt3">Asus, HP, Dell, Lenovo & More</div>
-          </div>
-          <div class="offerimg3">
-            <img src="images/electronics3.jpg" alt="Cameras">
-            <div class="offerimg-subtxt1">Top Mirrorless Cameras</div>
-            <div class="offerimg-subtxt2">Shop Now!</div>
-            <div class="offerimg-subtxt3">Canon, Sony, Fujifilm...</div>
-          </div>
-          <div class="offerimg4">
-            <img src="images/electronics4.jpg" alt="Power Banks">
-            <div class="offerimg-subtxt1">Premium Power Banks</div>
-            <div class="offerimg-subtxt2">Shop Now!</div>
-            <div class="offerimg-subtxt3">Mi, realme & More</div>
-          </div>
-          <div class="offerimg5">
-            <img src="images/electronics5.jpg" alt="Trimmers">
-            <div class="offerimg-subtxt1">Best of Trimmers</div>
-            <div class="offerimg-subtxt2">From ₹399</div>
-            <div class="offerimg-subtxt3">realme, Mi, Philips...</div>
-          </div>
-          <div class="offerimg6">
-            <img src="images/electronics6.jpg" alt="Projectors">
-            <div class="offerimg-subtxt1">Projectors</div>
-            <div class="offerimg-subtxt2">From ₹9999</div>
-            <div class="offerimg-subtxt3">ViewSonic, ZEBRONICS...</div>
-          </div>
-          <div class="offerimg7">
-            <img src="images/electronics7.jpg" alt="Monitors">
-            <div class="offerimg-subtxt1">Monitors</div>
-            <div class="offerimg-subtxt2">From ₹8000</div>
-            <div class="offerimg-subtxt3">Acer, ZEBRONICS, LAPCARE...</div>
-          </div>
-          <div class="offerimg8">
-            <img src="images/electronics8.jpg" alt="Speakers">
-            <div class="offerimg-subtxt1">Speakers</div>
-            <div class="offerimg-subtxt2">From ₹300</div>
-            <div class="offerimg-subtxt3">JBL, Aroma... </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!-- End of 1st Container section -->
+        <hr> <a href="Best-of-Electronics.html">
+            <div class="offerrow">
+                <div class="offerimg1"> <img src="images/electronics1.jpg" alt="Mobiles">
+                    <div class="offerimg-subtxt1">Mobiles</div>
+                    <div class="offerimg-subtxt2">From ₹6499</div>
+                    <div class="offerimg-subtxt3">Samsung, Apple, OnePlus & More</div>
+                </div>
+                <div class="offerimg2"> <img src="images/electronics2.jpg" alt="Laptops">
+                    <div class="offerimg-subtxt1">Laptops</div>
+                    <div class="offerimg-subtxt2">From ₹23490</div>
+                    <div class="offerimg-subtxt3">Asus, HP, Dell, Lenovo & More</div>
+                </div>
+                <div class="offerimg3"> <img src="images/electronics3.jpg" alt="Cameras">
+                    <div class="offerimg-subtxt1">Top Mirrorless Cameras</div>
+                    <div class="offerimg-subtxt2">Shop Now!</div>
+                    <div class="offerimg-subtxt3">Canon, Sony, Fujifilm...</div>
+                </div>
+                <div class="offerimg4"> <img src="images/electronics4.jpg" alt="Power Banks">
+                    <div class="offerimg-subtxt1">Premium Power Banks</div>
+                    <div class="offerimg-subtxt2">Shop Now!</div>
+                    <div class="offerimg-subtxt3">Mi, realme & More</div>
+                </div>
+                <div class="offerimg5"> <img src="images/electronics5.jpg" alt="Trimmers">
+                    <div class="offerimg-subtxt1">Best of Trimmers</div>
+                    <div class="offerimg-subtxt2">From ₹399</div>
+                    <div class="offerimg-subtxt3">realme, Mi, Philips...</div>
+                </div>
+                <div class="offerimg6"> <img src="images/electronics6.jpg" alt="Projectors">
+                    <div class="offerimg-subtxt1">Projectors</div>
+                    <div class="offerimg-subtxt2">From ₹9999</div>
+                    <div class="offerimg-subtxt3">ViewSonic, ZEBRONICS...</div>
+                </div>
+                <div class="offerimg7"> <img src="images/electronics7.jpg" alt="Monitors">
+                    <div class="offerimg-subtxt1">Monitors</div>
+                    <div class="offerimg-subtxt2">From ₹8000</div>
+                    <div class="offerimg-subtxt3">Acer, ZEBRONICS, LAPCARE...</div>
+                </div>
+                <div class="offerimg8"> <img src="images/electronics8.jpg" alt="Speakers">
+                    <div class="offerimg-subtxt1">Speakers</div>
+                    <div class="offerimg-subtxt2">From ₹300</div>
+                    <div class="offerimg-subtxt3">JBL, Aroma... </div>
+                </div>
+            </div>
+        </a>
+    </div> <!-- End of 1st Container section -->
     <!-- Start of 2nd Container section -->
     <div class="content">
-      <div class="contenthead">
-        <div class="contenthead"> Top Deals </div>
-        <div class="viewallbtn">
-          <button id="Top-Deals" class="viewbtn">View All</button>
+        <div class="contenthead">
+            <div class="contenthead"> Top Deals </div>
+            <div class="viewallbtn"> <button id="Top-Deals" class="viewbtn">View All</button> </div>
         </div>
-      </div>
-      <hr>
-      <a href="Top-Deals.html">
-        <div class="offerrow">
-          <div class="offerimg1">
-            <img src="images/topdeals1.jpg" alt="Washing Machines">
-            <div class="offerimg-subtxt1">Front Load Washing Machines</div>
-            <div class="offerimg-subtxt2">From ₹17,990</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg2">
-            <img src="images/topdeals2.jpg" alt="Refrigerators">
-            <div class="offerimg-subtxt1">Refrigerators</div>
-            <div class="offerimg-subtxt2">From ₹7,240</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg3">
-            <img src="images/topdeals3.jpg" alt="Printers">
-            <div class="offerimg-subtxt1">Printers</div>
-            <div class="offerimg-subtxt2">From ₹10,999</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg4">
-            <img src="images/topdeals4.jpg" alt="Adapter">
-            <div class="offerimg-subtxt1">Adapter</div>
-            <div class="offerimg-subtxt2">From ₹99</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg5">
-            <img src="images/topdeals5.jpg" alt="Tyres">
-            <div class="offerimg-subtxt1">Tyres</div>
-            <div class="offerimg-subtxt2">From ₹799</div>
-            <div class="offerimg-subtxt3">Apollo, Ceat..</div>
-          </div>
-          <div class="offerimg6">
-            <img src="images/topdeals6.jpg" alt="Charger Cables">
-            <div class="offerimg-subtxt1">Charger Cables</div>
-            <div class="offerimg-subtxt2">From ₹49</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg7">
-            <img src="images/topdeals7.jpg" alt="Instax Cameras">
-            <div class="offerimg-subtxt1">Instax Cameras</div>
-            <div class="offerimg-subtxt2">From ₹3,999</div>
-            <div class="offerimg-subtxt3">Capture your unique moments</div>
-          </div>
-          <div class="offerimg8">
-            <img src="images/topdeals8.jpg" alt="Fitness Kits">
-            <div class="offerimg-subtxt1">Fitness Kits</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-            <div class="offerimg-subtxt3">Grab Now</div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!-- End of 2nd Container section -->
+        <hr> <a href="Top-Deals.html">
+            <div class="offerrow">
+                <div class="offerimg1"> <img src="images/topdeals1.jpg" alt="Washing Machines">
+                    <div class="offerimg-subtxt1">Front Load Washing Machines</div>
+                    <div class="offerimg-subtxt2">From ₹17,990</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg2"> <img src="images/topdeals2.jpg" alt="Refrigerators">
+                    <div class="offerimg-subtxt1">Refrigerators</div>
+                    <div class="offerimg-subtxt2">From ₹7,240</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg3"> <img src="images/topdeals3.jpg" alt="Printers">
+                    <div class="offerimg-subtxt1">Printers</div>
+                    <div class="offerimg-subtxt2">From ₹10,999</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg4"> <img src="images/topdeals4.jpg" alt="Adapter">
+                    <div class="offerimg-subtxt1">Adapter</div>
+                    <div class="offerimg-subtxt2">From ₹99</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg5"> <img src="images/topdeals5.jpg" alt="Tyres">
+                    <div class="offerimg-subtxt1">Tyres</div>
+                    <div class="offerimg-subtxt2">From ₹799</div>
+                    <div class="offerimg-subtxt3">Apollo, Ceat..</div>
+                </div>
+                <div class="offerimg6"> <img src="images/topdeals6.jpg" alt="Charger Cables">
+                    <div class="offerimg-subtxt1">Charger Cables</div>
+                    <div class="offerimg-subtxt2">From ₹49</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg7"> <img src="images/topdeals7.jpg" alt="Instax Cameras">
+                    <div class="offerimg-subtxt1">Instax Cameras</div>
+                    <div class="offerimg-subtxt2">From ₹3,999</div>
+                    <div class="offerimg-subtxt3">Capture your unique moments</div>
+                </div>
+                <div class="offerimg8"> <img src="images/topdeals8.jpg" alt="Fitness Kits">
+                    <div class="offerimg-subtxt1">Fitness Kits</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                    <div class="offerimg-subtxt3">Grab Now</div>
+                </div>
+            </div>
+        </a>
+    </div> <!-- End of 2nd Container section -->
     <!-- Start of 3rd Container section -->
     <div class="content">
-      <div class="contenthead">
-        <div class="contenthead"> Home & Kitchen Essentials </div>
-        <div class="viewallbtn">
-          <button id="Home-Essentials" class="viewbtn">View All</button>
+        <div class="contenthead">
+            <div class="contenthead"> Home & Kitchen Essentials </div>
+            <div class="viewallbtn"> <button id="Home-Essentials" class="viewbtn">View All</button> </div>
         </div>
-      </div>
-      <hr>
-      <a href="Home-Essentials.html">
-        <div class="offerrow">
-          <div class="offerimg1">
-            <img src="images/home1.jpg" alt="Power and Hand Tool Kit">
-            <div class="offerimg-subtxt1">Power and Hand Tool Kit</div>
-            <div class="offerimg-subtxt2">From ₹399</div>
-            <div class="offerimg-subtxt3">Best Selling</div>
-          </div>
-          <div class="offerimg2">
-            <img src="images/home2.jpg" alt="Wall Decor Items">
-            <div class="offerimg-subtxt1">Wall Decor Items</div>
-            <div class="offerimg-subtxt2">Upto 80% Off</div>
-            <div class="offerimg-subtxt3">Big Discounts</div>
-          </div>
-          <div class="offerimg3">
-            <img src="images/home3.jpg" alt="Live Plants">
-            <div class="offerimg-subtxt1">Live Plants</div>
-            <div class="offerimg-subtxt2">From ₹199</div>
-            <div class="offerimg-subtxt3">Best Selling</div>
-          </div>
-          <div class="offerimg4">
-            <img src="images/home4.jpg" alt="Paintings">
-            <div class="offerimg-subtxt1">Paintings</div>
-            <div class="offerimg-subtxt2">Upto 80% Off</div>
-            <div class="offerimg-subtxt3">Big Discounts</div>
-          </div>
-          <div class="offerimg5">
-            <img src="images/home5.jpg" alt="Clocks">
-            <div class="offerimg-subtxt1">Clocks</div>
-            <div class="offerimg-subtxt2">Upto 80% Off</div>
-            <div class="offerimg-subtxt3">Big Discounts</div>
-          </div>
-          <div class="offerimg6">
-            <img src="images/home6.jpg" alt="Emergency Lights">
-            <div class="offerimg-subtxt1">Emergency Lights</div>
-            <div class="offerimg-subtxt2">Upto 80% Off</div>
-            <div class="offerimg-subtxt3">Big Discounts</div>
-          </div>
-          <div class="offerimg7">
-            <img src="images/home7.jpg" alt="Gardening Tools">
-            <div class="offerimg-subtxt1">Gardening Tools</div>
-            <div class="offerimg-subtxt2">Under ₹99</div>
-            <div class="offerimg-subtxt3">Best Selling</div>
-          </div>
-          <div class="offerimg8">
-            <img src="images/home8.jpg" alt="Appliances Cover">
-            <div class="offerimg-subtxt1">Appliances Cover</div>
-            <div class="offerimg-subtxt2">From ₹59</div>
-            <div class="offerimg-subtxt3">Best Selling Range</div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!-- End of 3rd Container section -->
+        <hr> <a href="Home-Essentials.html">
+            <div class="offerrow">
+                <div class="offerimg1"> <img src="images/home1.jpg" alt="Power and Hand Tool Kit">
+                    <div class="offerimg-subtxt1">Power and Hand Tool Kit</div>
+                    <div class="offerimg-subtxt2">From ₹399</div>
+                    <div class="offerimg-subtxt3">Best Selling</div>
+                </div>
+                <div class="offerimg2"> <img src="images/home2.jpg" alt="Wall Decor Items">
+                    <div class="offerimg-subtxt1">Wall Decor Items</div>
+                    <div class="offerimg-subtxt2">Upto 80% Off</div>
+                    <div class="offerimg-subtxt3">Big Discounts</div>
+                </div>
+                <div class="offerimg3"> <img src="images/home3.jpg" alt="Live Plants">
+                    <div class="offerimg-subtxt1">Live Plants</div>
+                    <div class="offerimg-subtxt2">From ₹199</div>
+                    <div class="offerimg-subtxt3">Best Selling</div>
+                </div>
+                <div class="offerimg4"> <img src="images/home4.jpg" alt="Paintings">
+                    <div class="offerimg-subtxt1">Paintings</div>
+                    <div class="offerimg-subtxt2">Upto 80% Off</div>
+                    <div class="offerimg-subtxt3">Big Discounts</div>
+                </div>
+                <div class="offerimg5"> <img src="images/home5.jpg" alt="Clocks">
+                    <div class="offerimg-subtxt1">Clocks</div>
+                    <div class="offerimg-subtxt2">Upto 80% Off</div>
+                    <div class="offerimg-subtxt3">Big Discounts</div>
+                </div>
+                <div class="offerimg6"> <img src="images/home6.jpg" alt="Emergency Lights">
+                    <div class="offerimg-subtxt1">Emergency Lights</div>
+                    <div class="offerimg-subtxt2">Upto 80% Off</div>
+                    <div class="offerimg-subtxt3">Big Discounts</div>
+                </div>
+                <div class="offerimg7"> <img src="images/home7.jpg" alt="Gardening Tools">
+                    <div class="offerimg-subtxt1">Gardening Tools</div>
+                    <div class="offerimg-subtxt2">Under ₹99</div>
+                    <div class="offerimg-subtxt3">Best Selling</div>
+                </div>
+                <div class="offerimg8"> <img src="images/home8.jpg" alt="Appliances Cover">
+                    <div class="offerimg-subtxt1">Appliances Cover</div>
+                    <div class="offerimg-subtxt2">From ₹59</div>
+                    <div class="offerimg-subtxt3">Best Selling Range</div>
+                </div>
+            </div>
+        </a>
+    </div> <!-- End of 3rd Container section -->
     <!-- Start of 4rd Container section -->
     <div class="content">
-      <div class="contenthead">
-        <div class="contenthead"> Essentials for Kids </div>
-        <div class="viewallbtn">
-          <button id="Essentials-for-Kids" class="viewbtn">View All</button>
+        <div class="contenthead">
+            <div class="contenthead"> Essentials for Kids </div>
+            <div class="viewallbtn"> <button id="Essentials-for-Kids" class="viewbtn">View All</button> </div>
         </div>
-      </div>
-      <hr>
-      <a href="Essentials-for-Kids.html">
-        <div class="offerrow">
-          <div class="offerimg1">
-            <img src="images/kids1.jpg" alt="Remote Control Toys">
-            <div class="offerimg-subtxt1">Remote Control Toys</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-          </div>
-          <div class="offerimg2">
-            <img src="images/kids2.jpg" alt="Soft Toys">
-            <div class="offerimg-subtxt1">Soft Toys</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-          </div>
-          <div class="offerimg3">
-            <img src="images/kids3.jpg" alt="Tricycles & Rideons">
-            <div class="offerimg-subtxt1">Tricycles & Rideons </div>
-            <div class="offerimg-subtxt2">Upto 70% Off</div>
-          </div>
-          <div class="offerimg4">
-            <img src="images/kids4.jpg" alt="Carrom Boards">
-            <div class="offerimg-subtxt1">Carrom Boards</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-          </div>
-          <div class="offerimg5">
-            <img src="images/kids5.jpg" alt="Learning and Educational Toys">
-            <div class="offerimg-subtxt1">Learning and Educational Toys</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-          </div>
-          <div class="offerimg6">
-            <img src="images/kids6.jpg" alt="Outdoor Toys">
-            <div class="offerimg-subtxt1">Outdoor Toys</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-          </div>
-          <div class="offerimg7">
-            <img src="images/kids7.jpg" alt="Lunch Boxes">
-            <div class="offerimg-subtxt1">Lunch Boxes</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-          </div>
-          <div class="offerimg8">
-            <img src="images/kids8.jpg" alt="Stationary items">
-            <div class="offerimg-subtxt1">Stationary items</div>
-            <div class="offerimg-subtxt2">Min. 40% Off</div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!-- End of 4rd Container section -->
+        <hr> <a href="Essentials-for-Kids.html">
+            <div class="offerrow">
+                <div class="offerimg1"> <img src="images/kids1.jpg" alt="Remote Control Toys">
+                    <div class="offerimg-subtxt1">Remote Control Toys</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                </div>
+                <div class="offerimg2"> <img src="images/kids2.jpg" alt="Soft Toys">
+                    <div class="offerimg-subtxt1">Soft Toys</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                </div>
+                <div class="offerimg3"> <img src="images/kids3.jpg" alt="Tricycles & Rideons">
+                    <div class="offerimg-subtxt1">Tricycles & Rideons </div>
+                    <div class="offerimg-subtxt2">Upto 70% Off</div>
+                </div>
+                <div class="offerimg4"> <img src="images/kids4.jpg" alt="Carrom Boards">
+                    <div class="offerimg-subtxt1">Carrom Boards</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                </div>
+                <div class="offerimg5"> <img src="images/kids5.jpg" alt="Learning and Educational Toys">
+                    <div class="offerimg-subtxt1">Learning and Educational Toys</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                </div>
+                <div class="offerimg6"> <img src="images/kids6.jpg" alt="Outdoor Toys">
+                    <div class="offerimg-subtxt1">Outdoor Toys</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                </div>
+                <div class="offerimg7"> <img src="images/kids7.jpg" alt="Lunch Boxes">
+                    <div class="offerimg-subtxt1">Lunch Boxes</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                </div>
+                <div class="offerimg8"> <img src="images/kids8.jpg" alt="Stationary items">
+                    <div class="offerimg-subtxt1">Stationary items</div>
+                    <div class="offerimg-subtxt2">Min. 40% Off</div>
+                </div>
+            </div>
+        </a>
+    </div> <!-- End of 4rd Container section -->
     <!-- Start of 5th Container section -->
     <div class="content">
-      <div class="contenthead">
-        <div class="contenthead"> Top Picks For You </div>
-        <div class="viewallbtn">
-          <button id="Top-Picks" class="viewbtn">View All</button>
+        <div class="contenthead">
+            <div class="contenthead"> Top Picks For You </div>
+            <div class="viewallbtn"> <button id="Top-Picks" class="viewbtn">View All</button> </div>
         </div>
-      </div>
-      <hr>
-      <a href="Top-Picks.html">
-        <div class="offerrow">
-          <div class="offerimg1">
-            <img src="images/toppicks1.jpg" alt="Apple iPads">
-            <div class="offerimg-subtxt1">Apple iPads</div>
-            <div class="offerimg-subtxt2">Shop Now</div>
-            <div class="offerimg-subtxt3">Liquid Retina Display</div>
-          </div>
-          <div class="offerimg2">
-            <img src="images/toppicks2.jpg" alt="Casual Shirts">
-            <div class="offerimg-subtxt1">Casual Shirts</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg3">
-            <img src="images/toppicks3.jpg" alt="Casual Shoes">
-            <div class="offerimg-subtxt1">Casual Shoes</div>
-            <div class="offerimg-subtxt2">Min. 50% Off</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg4">
-            <img src="images/toppicks4.jpg" alt="Wrist Watches">
-            <div class="offerimg-subtxt1">Wrist Watches</div>
-            <div class="offerimg-subtxt2">Min. 40% Off</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg5">
-            <img src="images/toppicks5.jpg" alt="Geared Cycles">
-            <div class="offerimg-subtxt1">Geared Cycles</div>
-            <div class="offerimg-subtxt2">From ₹3999</div>
-            <div class="offerimg-subtxt3">Leader, Cardiac & More</div>
-          </div>
-          <div class="offerimg6">
-            <img src="images/toppicks6.jpg" alt="String Instruments">
-            <div class="offerimg-subtxt1">String Instruments</div>
-            <div class="offerimg-subtxt2">Upto 70% Off</div>
-            <div class="offerimg-subtxt3">Guitars, Ukuleless & More</div>
-          </div>
-          <div class="offerimg7">
-            <img src="images/toppicks7.jpg" alt="Artificial Jewellery">
-            <div class="offerimg-subtxt1">Artificial Jewellery</div>
-            <div class="offerimg-subtxt2">Min. 70% Off</div>
-            <div class="offerimg-subtxt3">Buy Now</div>
-          </div>
-          <div class="offerimg8">
-            <img src="images/toppicks8.jpg" alt="Perfumes">
-            <div class="offerimg-subtxt1">Perfumes</div>
-            <div class="offerimg-subtxt2">Upto 40% Off</div>
-            <div class="offerimg-subtxt3">Fog, Denver...</div>
-          </div>
-        </div>
-      </a>
-    </div>
-    <!-- End of 5th Container section -->
+        <hr> <a href="Top-Picks.html">
+            <div class="offerrow">
+                <div class="offerimg1"> <img src="images/toppicks1.jpg" alt="Apple iPads">
+                    <div class="offerimg-subtxt1">Apple iPads</div>
+                    <div class="offerimg-subtxt2">Shop Now</div>
+                    <div class="offerimg-subtxt3">Liquid Retina Display</div>
+                </div>
+                <div class="offerimg2"> <img src="images/toppicks2.jpg" alt="Casual Shirts">
+                    <div class="offerimg-subtxt1">Casual Shirts</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg3"> <img src="images/toppicks3.jpg" alt="Casual Shoes">
+                    <div class="offerimg-subtxt1">Casual Shoes</div>
+                    <div class="offerimg-subtxt2">Min. 50% Off</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg4"> <img src="images/toppicks4.jpg" alt="Wrist Watches">
+                    <div class="offerimg-subtxt1">Wrist Watches</div>
+                    <div class="offerimg-subtxt2">Min. 40% Off</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg5"> <img src="images/toppicks5.jpg" alt="Geared Cycles">
+                    <div class="offerimg-subtxt1">Geared Cycles</div>
+                    <div class="offerimg-subtxt2">From ₹3999</div>
+                    <div class="offerimg-subtxt3">Leader, Cardiac & More</div>
+                </div>
+                <div class="offerimg6"> <img src="images/toppicks6.jpg" alt="String Instruments">
+                    <div class="offerimg-subtxt1">String Instruments</div>
+                    <div class="offerimg-subtxt2">Upto 70% Off</div>
+                    <div class="offerimg-subtxt3">Guitars, Ukuleless & More</div>
+                </div>
+                <div class="offerimg7"> <img src="images/toppicks7.jpg" alt="Artificial Jewellery">
+                    <div class="offerimg-subtxt1">Artificial Jewellery</div>
+                    <div class="offerimg-subtxt2">Min. 70% Off</div>
+                    <div class="offerimg-subtxt3">Buy Now</div>
+                </div>
+                <div class="offerimg8"> <img src="images/toppicks8.jpg" alt="Perfumes">
+                    <div class="offerimg-subtxt1">Perfumes</div>
+                    <div class="offerimg-subtxt2">Upto 40% Off</div>
+                    <div class="offerimg-subtxt3">Fog, Denver...</div>
+                </div>
+            </div>
+        </a>
+    </div> <!-- End of 5th Container section -->
     <!-- Start of Description Section-->
-    <div class="description">
-      <br>
-      <div class="description-subtxt1">Flipkart: The One-stop Shopping Destination</div>
-      <br>
-      <div class="description-subtxt2">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</div>
-      <br>
-      <div class="description-subtxt2">What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.</div>
-      <br>
-      <div class="description-subtxt1">Flipkart Plus</div>
-      <br>
-      <div class="description-subtxt2">A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!</div>
-      <br>
-      <div class="description-subtxt2">What's more, you can even use the Flipkart supercoins for a number of exciting services, like: <br> An annual Zomato Gold membership <br> An annual Hotstar Premium membership <br> 6 months Gaana plus subscription <br> Rupees 550 instant discount on flights on ixigo <br> Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply. </div>
-      <br>
-      <div class="description-subtxt1">No Cost EMI</div>
-      <br>
-      <div class="description-subtxt2">In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.</div>
-      <br>
-      <div class="description-subtxt1">EMI on Debit Cards</div>
-      <br>
-      <div class="description-subtxt2">Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.</div>
-      <br>
-      <div class="description-subtxt1">Mobile Exchange Offers</div>
-      <br>
-      <div class="description-subtxt2">Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</div>
-      <br>
-      <div class="description-subtxt1">What Can You Buy From Flipkart?</div>
-      <br>
-      <div class="description-subtxt1">Mobile Phones</div>
-      <br>
-      <div class="description-subtxt2">From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase problems, with door-to-door services.</div>
-      <br>
-      <div class="description-subtxt1">Electronic Devices and Accessories</div>
-      <br>
-      <div class="description-subtxt2">When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler. <br> Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. <br> Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember. <br> How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation. </div>
-      <br>
-      <div class="description-subtxt1">Large Appliances</div>
-      <br>
-      <div class="description-subtxt2">Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others. <br> For certain product categories, Customers meeting the eligibility criteria will have the option to buy larger quantities. To know more on the eligibility criteria and terms and conditions, please reach out to Purchases.oni@flipkart.com. </div>
-      <br>undefined<div class="description-subtxt1">Small Home Appliances</div>undefined<br>undefined<div class="description-subtxt2">Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.</div>undefined<br>undefined<div class="description-subtxt1">Lifestyle</div>undefined<br>undefined<div class="description-subtxt2">Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.</div>undefined<br>undefined<div class="description-subtxt1">Home and Furniture</div>undefined<br>undefined<div class="description-subtxt2">Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes.undefined<br> You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart.undefined</div>undefined<br>undefined<div class="description-subtxt1">Baby and Kids</div>undefined<br>undefined<div class="description-subtxt2">Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.</div>undefined<br>undefined<div class="description-subtxt1">Books, Sports and Games</div>undefined<br>undefined<div class="description-subtxt2">Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.</div>undefined<br>undefined<div class="description-subtxt1">Grocery/Supermart</div>undefined<br>undefined<div class="description-subtxt2">Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.</div>undefined<br>undefined
-    </div>undefined
-    <!-- End of Description Section-->undefined
-    <!-- Start of Footer -->undefined<footer>undefined<div class="footer">undefined<div class="F-row-1">undefined<div class="F-column-1">undefined<div class="F-heading">undefined<p>ABOUT</p>undefined</div>undefined<div class="F-list">undefined<a href="#">Contact Us</a>undefined<a href="#">About Us</a>undefined<a href="#">Careers</a>undefined<a href="#">Flipkart Stories</a>undefined<a href="#">Press</a>undefined<a href="#">Flipkart Wholesale</a>undefined<a href="#">Corporate Information</a>undefined</div>undefined</div>undefined<div class="F-column-2">undefined<div class="F-heading">undefined<p>HELP</p>undefined</div>undefined<div class="F-list">undefined<a href="#">Payments</a>undefined<a href="#">Shipping</a>undefined<a href="#">Cancellation & Returns</a>undefined<a href="#">FAQ</a>undefined<a href="#">Report Infringement</a>undefined</div>undefined</div>undefined<div class="F-column-3">undefined<div class="F-heading">undefined<p>POLICY</p>undefined</div>undefined<div class="F-list">undefined<a href="#">Return Policy</a>undefined<a href="#">Terms Of Use</a>undefined<a href="#">Security</a>undefined<a href="#">Privacy</a>undefined<a href="#">Sitemap</a>undefined<a href="#">Grievance Redressal</a>undefined<a href="#">EPR Compliance</a>undefined</div>undefined</div>undefined<div class="F-column-4">undefined<div class="F-heading">undefined<p>SOCIAL</p>undefined</div>undefined<div class="F-list">undefined<a href="#">Facebook</a>undefined<a href="#">Twitter</a>undefined<a href="#">YouTube</a>undefined</div>undefined</div>undefined<div class="F-column-5">undefined<div class="F-heading">undefined<p>Mail Us:</p>undefined</div>undefined<div class="F-list">undefined<p>Flipkart Internet Private Limited,</p>undefined<p>Buildings Alyssa, Begonia &</p>undefined<p>Clove Embassy Tech Village,</p>undefined<p>Outer Ring Road, Devarabeesanahalli Village,</p>undefined<p>Bengaluru, 560103,</p>undefined<p>Karnataka, India</p>undefined</div>undefined</div>undefined<div class="F-column-6">undefined<div class="F-heading">undefined<p>Registered Office Address:</p>undefined</div>undefined<div class="F-list-address">undefined<p>Flipkart Internet Private Limited, undefined
-              <p>Buildings Alyssa, Begonia &</p>undefined<p>Clove Embassy Tech Village,</p>undefined<p>Outer Ring Road, Devarabeesanahalli Village,</p>undefined<p>Bengaluru, 560103,</p>undefined<p>Karnataka, India</p>undefined<p>CIN : U51109KA2012PTC066107</p>undefined<p> Telephone: undefined<a href="tel: 044-45614700">044-45614700</a>undefined</p>undefined
-            </div>undefined</div>undefined</div>undefined<div class="Footer-Flipkart">undefined<p>© 2007-2023 Flipkart.com</p>undefined</div>undefined</div>undefined</footer>undefined
-    <!-- End of Footer -->undefined<script src="script.js"></script>undefined
-  </body>undefined
+    <div class="description"> <br>
+        <div class="description-subtxt1">Flipkart: The One-stop Shopping Destination</div> <br>
+        <div class="description-subtxt2">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</div> <br>
+        <div class="description-subtxt2">What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.</div> <br>
+        <div class="description-subtxt1">Flipkart Plus</div> <br>
+        <div class="description-subtxt2">A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!</div> <br>
+        <div class="description-subtxt2">What's more, you can even use the Flipkart supercoins for a number of exciting services, like: <br> An annual Zomato Gold membership <br> An annual Hotstar Premium membership <br> 6 months Gaana plus subscription <br> Rupees 550 instant discount on flights on ixigo <br> Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply. </div> <br>
+        <div class="description-subtxt1">No Cost EMI</div> <br>
+        <div class="description-subtxt2">In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.</div> <br>
+        <div class="description-subtxt1">EMI on Debit Cards</div> <br>
+        <div class="description-subtxt2">Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.</div> <br>
+        <div class="description-subtxt1">Mobile Exchange Offers</div> <br>
+        <div class="description-subtxt2">Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.</div> <br>
+        <div class="description-subtxt1">What Can You Buy From Flipkart?</div> <br>
+        <div class="description-subtxt1">Mobile Phones</div> <br>
+        <div class="description-subtxt2">From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase problems, with door-to-door services.</div> <br>
+        <div class="description-subtxt1">Electronic Devices and Accessories</div> <br>
+        <div class="description-subtxt2">When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler. <br> Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. <br> Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember. <br> How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation. </div> <br>
+        <div class="description-subtxt1">Large Appliances</div> <br>
+        <div class="description-subtxt2">Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others. <br> For certain product categories, Customers meeting the eligibility criteria will have the option to buy larger quantities. To know more on the eligibility criteria and terms and conditions, please reach out to Purchases.oni@flipkart.com. </div> <br>
+        <div class="description-subtxt1">Small Home Appliances</div> <br>
+        <div class="description-subtxt2">Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.</div> <br>
+        <div class="description-subtxt1">Lifestyle</div> <br>
+        <div class="description-subtxt2">Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.</div> <br>
+        <div class="description-subtxt1">Home and Furniture</div> <br>
+        <div class="description-subtxt2">Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes. <br> You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart. </div> <br>
+        <div class="description-subtxt1">Baby and Kids</div> <br>
+        <div class="description-subtxt2">Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.</div> <br>
+        <div class="description-subtxt1">Books, Sports and Games</div> <br>
+        <div class="description-subtxt2">Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.</div> <br>
+        <div class="description-subtxt1">Grocery/Supermart</div> <br>
+        <div class="description-subtxt2">Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.</div> <br>
+    </div> <!-- End of Description Section-->
+    <!-- Start of Footer -->
+    <footer>
+        <div class="footer">
+            <div class="F-row-1">
+                <div class="F-column-1">
+                    <div class="F-heading">
+                        <p>ABOUT</p>
+                    </div>
+                    <div class="F-list"> <a href="#">Contact Us</a> <a href="#">About Us</a> <a href="#">Careers</a> <a href="#">Flipkart Stories</a> <a href="#">Press</a> <a href="#">Flipkart Wholesale</a> <a href="#">Corporate Information</a> </div>
+                </div>
+                <div class="F-column-2">
+                    <div class="F-heading">
+                        <p>HELP</p>
+                    </div>
+                    <div class="F-list"> <a href="#">Payments</a> <a href="#">Shipping</a> <a href="#">Cancellation & Returns</a> <a href="#">FAQ</a> <a href="#">Report Infringement</a> </div>
+                </div>
+                <div class="F-column-3">
+                    <div class="F-heading">
+                        <p>POLICY</p>
+                    </div>
+                    <div class="F-list"> <a href="#">Return Policy</a> <a href="#">Terms Of Use</a> <a href="#">Security</a> <a href="#">Privacy</a> <a href="#">Sitemap</a> <a href="#">Grievance Redressal</a> <a href="#">EPR Compliance</a> </div>
+                </div>
+                <div class="F-column-4">
+                    <div class="F-heading">
+                        <p>SOCIAL</p>
+                    </div>
+                    <div class="F-list"> <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">YouTube</a> </div>
+                </div>
+                <div class="F-column-5">
+                    <div class="F-heading">
+                        <p>Mail Us:</p>
+                    </div>
+                    <div class="F-list">
+                        <p>Flipkart Internet Private Limited,</p>
+                        <p>Buildings Alyssa, Begonia &</p>
+                        <p>Clove Embassy Tech Village,</p>
+                        <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                        <p>Bengaluru, 560103,</p>
+                        <p>Karnataka, India</p>
+                    </div>
+                </div>
+                <div class="F-column-6">
+                    <div class="F-heading">
+                        <p>Registered Office Address:</p>
+                    </div>
+                    <div class="F-list-address">
+                        <p>Flipkart Internet Private Limited,
+                        <p>Buildings Alyssa, Begonia &</p>
+                        <p>Clove Embassy Tech Village,</p>
+                        <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                        <p>Bengaluru, 560103,</p>
+                        <p>Karnataka, India</p>
+                        <p>CIN : U51109KA2012PTC066107</p>
+                        <p> Telephone: <a href="tel: 044-45614700">044-45614700</a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Footer-Flipkart">
+                <p>© 2007-2023 Flipkart.com</p>
+            </div>
+        </div>
+    </footer> <!-- End of Footer -->
+    <script src="script.js"></script>
+</body>
 </html>
