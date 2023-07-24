@@ -3,4 +3,4 @@ This repository contains the source code and project files of the AICTE Front En
 
 Website Link: https://karthikyandrapu.github.io/Flipkart-Clone/
 
-Presentation Link: https://github.com/karthikyandrapu/Flipkart-Clone/blob/main/Flipkart-Clone-FED-Project.pptx
+Presentation Link: https://docs.google.com/presentation/d/1LuT60j0giNhXdq9022FCxWp2tGRH45lt/edit?usp=drive_link&ouid=113744116903722186308&rtpof=true&sd=true
